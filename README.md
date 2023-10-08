@@ -12,63 +12,8 @@ A user registration has the following fields.
 
 ### The assignment
 1. Write Java code to model the user registration and the validation for the input fields.
-   - When the validation fails, give a user friendly error message.
+   - Refer to the Java class in this repo that has the starter code
 
-```
-public class UserRegistration {
-
-    private String firstName;
-    private String lastName;
-    private String emailAddress;
-    private String phoneNumber;
-    private Address address;
-
-    // Constructors
-
-    public UserRegistration(String firstName, String lastName, String emailAddress, String phoneNumber, Address address) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.emailAddress = emailAddress;
-        this.phoneNumber = phoneNumber;
-        this.address = address;
-    }
-
-    // Validation Methods
-
-    public boolean validateFirstName() {
-        // Implement validation logic for first name
-        // Should not be empty, and should have a max length of 256 characters
-        // Allow alphabetic characters, spaces, hyphens, and apostrophes
-        // Return true if valid, false otherwise
-    }
-
-    public boolean validateLastName() {
-        // Implement validation logic for last name
-        // Should not be empty, and should have a max length of 256 characters
-        // Allow alphabetic characters, spaces, hyphens, and apostrophes
-        // Return true if valid, false otherwise
-    }
-
-    public boolean validateEmailAddress() {
-        // Implement validation logic for email address
-        // Should match the username@domain.com format
-        // Allow letters, numbers, dots ".", hyphens "-", hash "#," and underscores "_"
-        // Return true if valid, false otherwise
-    }
-
-    public boolean validatePhoneNumber() {
-        // Implement validation logic for phone number
-        // Should consist of ten digits
-        // Return true if valid, false otherwise
-    }
-
-    // Other Methods for address validation
-
-    // ...
-
-}
-
-```
 2. Write tests for the validation methods.
    - Continue to write tests using Junit
    - Write positive and negative tests

@@ -20,7 +20,7 @@ public class UserRegistration {
 
     // Validation Methods
 
-    public boolean validateFirstName() {
+    public boolean validatetName(String name) {
         // Implement validation logic for first name
         // Should not be empty, and should have a max length of 256 characters
         // Allow alphabetic characters, spaces, hyphens, and apostrophes
@@ -28,15 +28,7 @@ public class UserRegistration {
         return false;
     }
 
-    public boolean validateLastName() {
-        // Implement validation logic for last name
-        // Should not be empty, and should have a max length of 256 characters
-        // Allow alphabetic characters, spaces, hyphens, and apostrophes
-        // Return true if valid, false otherwise
-        return false;
-    }
-
-    public boolean validateEmailAddress() {
+    public boolean validateEmailAddress(String email) {
         // Implement validation logic for email address
         // Should match the username@domain.com format
         // Allow letters, numbers, dots ".", hyphens "-", hash "#," and underscores "_"
@@ -44,7 +36,7 @@ public class UserRegistration {
         return false;
     }
 
-    public boolean validatePhoneNumber() {
+    public boolean validatePhoneNumber(String phoneNumber) {
         // Implement validation logic for phone number
         // Should consist of ten digits
         // Return true if valid, false otherwise

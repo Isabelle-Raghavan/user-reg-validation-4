@@ -9,7 +9,7 @@ A user registration has the following fields.
 * Email address. Should have username@domain.com format. An email address can contain letters, numbers, dots ".", hyphens "-", hash "#" and underscores "_."
 * Phone number - ten digit numbers
 * Address - made up of street address, address line 2, city, state/province/region, country, zip code. Each sub field should not have more than 256 alphanumeric characters. (In the next assignment you will make api calls to verify if the address is a real address)
-* Date of Birth - should be a valid date in the past. Key here is past. How can you test if the input is always in the past? 
+* Date of Birth - Should be a valid date in the past. (Updated on 10/10) - Accept the date as a string in format "MM/DD/YYYY".  
 
 ### The assignment
 1. Write Java code to model the user registration and the validation for the input fields.

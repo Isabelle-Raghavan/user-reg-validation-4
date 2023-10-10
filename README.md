@@ -18,6 +18,6 @@ A user registration has the following fields.
 2. Write tests for the validation methods.
    - Write tests using JUnit for all your code (1 point)
    - Write positive and negative tests (1 point)
-   - Use parameterized tests that pass multiple values to the test cases. Refer to (this  article by Carlos Schults)[https://www.waldo.com/blog/parameterized-test-junit] on parameterized testing (1 point)
+   - Use parameterized tests that pass multiple values to the test cases. Refer to [this  article by Carlos Schults](https://www.waldo.com/blog/parameterized-test-junit) on parameterized testing (1 point)
    - Enable code coverage and commit the code coverage report in your repo. See [this page](CodeCoverage.md) (1 point)
 
